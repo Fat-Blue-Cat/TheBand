@@ -1,0 +1,141 @@
+/* Pc */
+@media (min-width:1024px){
+    
+}
+
+/* Table & Mobile (ưu tiên đặt trên)*/
+@media (max-width:1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    /* Tạo độ to cho nút */
+    .contact-form-btn{
+        font-size: 16px;
+    }
+    
+    
+    .contact-infor{
+        line-height: 2;
+    }
+
+    #footer .social-list{
+        font-size: 48px;
+    }
+
+    .social-list a{
+        padding: 0 8px;
+    }
+
+    #footer .coppyright a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+}
+
+
+/* Table */
+@media (min-width:740px)and(max-width:1023px){
+    
+}
+
+/* Mobile */
+@media (max-width:739px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px!important;
+    }
+
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    /* Tạo thuộc tính block để khoảng rộng chiếm hết m */
+    #header .menu-btn{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav  li{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    /* Bỏ vùng chọn của nút home */
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        /* Bỏ thuộc tính postion */
+        position: initial;
+        background-color: #000;
+    }
+
+    /* Thêm dộ rộng nút ấn mobile */
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    /* Fix content */
+    .row .member-list{
+        margin-top: 32px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+
+    .place-list{
+        margin-top: 16px;
+    }
+
+
+    /* Fix contact */
+
+    .contact-form{
+        margin-top: 32px;
+        font-size: 16px;
+
+    }
+
+    /* .btn{ đã thêm trong style
+        width: 100%;
+        text-align: center;
+    } */
+
+    #slider .text-content{
+        bottom: 33px;
+    }
+
+    
+
+
+
+
+
+}
